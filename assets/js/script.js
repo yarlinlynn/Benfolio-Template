@@ -35,20 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 });
-  
-  
-
-
-
-
-
-//TYPING EFFECT
-
-
-
-
-
-
 
 //CURSOR ANIMATION
 
