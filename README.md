@@ -1,10 +1,10 @@
-# 🌟 Yarlin Lynn’s Personal Portfolio
+# 🌟 Personal Portfolio
 
 Welcome to my custom-built portfolio site! This is a handcrafted, responsive, and fun digital home where I showcase my web development skills, favorite projects, and professional journey.
 
 ### 📸 Demo Screenshot
 
-![127 0 0 1_5500_index html(Nest Hub Max)](https://github.com/user-attachments/assets/1c42cfdb-dbfb-4698-91e4-0bd918731d40)
+![portolio-design](assets/portfolio-design.png)
 
 <br/> 
 
@@ -14,19 +14,6 @@ Welcome to my custom-built portfolio site! This is a handcrafted, responsive, an
 - 🌈 Designed to be engaging and professional with a touch of playfulness.
 - 📱 Fully responsive: looks awesome on mobile, tablet, and desktop.
 - 💡 Ideal for showing off your work, résumé, and creative vibe!
-
-<br/>
-
-## 🧩 Getting Started
-
-Want to tinker or use it yourself?
-
-```bash
-git clone https://github.com/yarlinlynn/Portfolio.git
-cd Portfolio
-open index.html  # or double-click it
-```
-> Voilà—your portfolio is live locally.
 
 <br/>
 
