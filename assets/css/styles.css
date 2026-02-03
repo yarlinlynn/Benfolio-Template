@@ -62,3 +62,80 @@ a {
 a, li, button, img, span { cursor: pointer; }
 
 li { list-style: none; }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--dark-blue);
+  outline-offset: 4px;
+}
+
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#BENTO GRID LAYOUT
+\*-----------------------------------*/
+
+.bento-grid {
+    display: grid;
+    gap: 1.25rem;
+    margin: auto;
+    max-width: 25rem;
+}
+
+.grid-wrapper {
+    border: 1px solid var(--dark-blue);
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+    position: relative;
+}
+
+/*-----------------------------------*\
+#WRAPPER (AUTO TYPING)
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#INFO WRAPPER (DESCRIPTION)
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#PROJECTS WRAPPER
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#WORK EXPERIENCE WRAPPER
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#RESUME WRAPPER
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#EDUCATION WRAPPER
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#CONTACT WRAPPER
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+#SVG WRAPPER
+\*-----------------------------------*/
