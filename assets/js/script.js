@@ -71,19 +71,19 @@ setTimeout(() => {
 
 // AUTO TYPE PROJECT TITLE FOR PROJECTS PAGE
 setTimeout(() => {
-  new Typed('.auto-type-Project-title', {
+  new Typed('.project-title', {
     strings: ["Projects"],
     typeSpeed: 70,
     backSpeed: 50,
     backDelay: 1500,
     loop: false,
-    showCursor: true
+    showCursor: false
   });
 }, 1000);
 
 // AUTO TYPE TEXT FOR PROJECTS PAGE
 setTimeout(() => {
-  new Typed('.auto-type-projectText', {
+  new Typed('.title-text', {
     strings: ["Here are a few personal projects I've worked on"],
     typeSpeed: 70,
     backSpeed: 50,
@@ -92,6 +92,31 @@ setTimeout(() => {
     showCursor: false
   });
 }, 2000);
+
+// AUTO TYPE TEXT FOR WORK EXPERIENCE PAGE
+setTimeout(() => {
+  new Typed('.work-title', {
+    strings: ["Work Experience"],
+    typeSpeed: 70,
+    backSpeed: 50,
+    backDelay: 1500,
+    loop: false,
+    showCursor: false
+  });
+}, 2000);
+
+setTimeout(() => {
+  new Typed('.work-text', {
+    strings: ["Here are the places I've worked at over the years"],
+    typeSpeed: 70,
+    backSpeed: 50,
+    backDelay: 1500,
+    loop: false,
+    showCursor: false
+  });
+}, 2000);
+
+  
 
 
   
