@@ -227,3 +227,30 @@ button:focus-visible {
     width: 50%;
     margin: 0 auto;
 }
+
+/*-----------------------------------*\
+#PROJECTS PAGE GRID
+\*-----------------------------------*/
+
+#title-wrapper { background: var(--green-03); }
+
+.wrapper-title, .subtext {
+    background-color: var(--light-pink);
+    color: var(--dark-pink);
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: .75rem 1.25rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subtext { margin-inline: 2.5rem; }
+
+.title-text { font-size: 1.3rem; }
+
+
+#project-1, #project-4 { background: var(--dark-pink); }
+
+#project-2, #project-5 { background: var(--green-02); }
+
+#project-3 { background: var(--green-01); }
