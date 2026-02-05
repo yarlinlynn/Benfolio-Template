@@ -82,6 +82,7 @@ button:focus-visible {
     line-height: 2.25rem;
     padding: .75rem 1.25rem;
     z-index: 2;
+    /* position: absolute; */
 }
 
 .banner h3 {
@@ -107,8 +108,6 @@ button:focus-visible {
 .bento-grid {
     display: grid;
     gap: 1.25rem;
-    margin: auto;
-    max-width: 25rem;
 }
 
 .grid-wrapper {
@@ -256,7 +255,10 @@ button:focus-visible {
 
 .subtext { margin-inline: 2.5rem; }
 
-.title-text { font-size: 1.3rem; }
+.title-text, .work-text { 
+    font-size: 1.075rem; 
+    font-weight: 100;
+}
 
 #project-1, #project-4 { background: var(--dark-pink); }
 
@@ -273,3 +275,4 @@ button:focus-visible {
 #job-2, #job-5 { background: var(--green-02); }
 
 #job-3 { background: var(--green-01); }
+
