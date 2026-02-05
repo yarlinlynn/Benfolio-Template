@@ -82,10 +82,12 @@ button:focus-visible {
     line-height: 2.25rem;
     padding: .75rem 1.25rem;
     z-index: 2;
-    /* position: absolute; */
+    color: var(--yellow);
+    font-weight: 600;
+    font-size: 1.75rem;
 }
 
-.banner h3 {
+h3 .banner {
     color: var(--yellow);
     font-weight: 600;
     font-size: 1.75rem;
@@ -208,19 +210,25 @@ button:focus-visible {
     padding-bottom: 1.5rem;
 }
 
-.social-links a {
+.social-links li {
     padding: 1rem 1.25rem;
     border: 1px solid var(--dark-blue);
     font-size: xx-large;
 }
 
-.social-links a:nth-child(1), 
-.social-links a:nth-child(3), 
-.social-links a:nth-child(5) { background-color: var(--dark-blue); }
+.social-links li:nth-child(1), 
+.social-links li:nth-child(3), 
+.social-links li:nth-child(5) { 
+    background-color: var(--dark-blue); 
+    color: var(--dark-pink);
+}
 
-.social-links a:nth-child(2), 
-.social-links a:nth-child(4), 
-.social-links a:nth-child(6) { background-color: var(--yellow); }
+.social-links li:nth-child(2), 
+.social-links li:nth-child(4), 
+.social-links li:nth-child(6) { 
+    background-color: var(--yellow); 
+    color: var(--cyan);
+}
 
 .social-links svg {
     width: 1.5rem;

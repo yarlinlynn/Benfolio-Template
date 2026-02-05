@@ -31,7 +31,7 @@
 
     .banner { position: absolute; }
 
-    .banner h3 { font-size: 1.75rem; }
+    h3 { font-size: 1.75rem; }
 
     /* auto-typing wrapper */
     #wrapper {
@@ -52,7 +52,11 @@
         left: -5px;
     }
 
-    .about-me { margin-top: 3rem; }
+    .about-me {
+        margin-top: 4rem;
+        text-align: justify;
+        padding-left: 2rem;
+    }
     
 
     /* projects wrapper */
@@ -113,9 +117,9 @@
 
     #education-wrapper svg {
         position: absolute;
-        bottom: -2px;
+        bottom: -1px;
         width: 120%;
-        left: -3rem;
+        left: -2.5rem;
     }
 
     /* contact me wrapper */
